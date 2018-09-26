@@ -13,7 +13,7 @@ deploy:
   region: us-east-1
   on:
     branch: master
-  bucket: workshop-level400-s3-scottliao
+  bucket: workshop-level400-s3-kevinwang
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
